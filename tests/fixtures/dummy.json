@@ -1,0 +1,17 @@
+{
+    "problem_type": "LP",
+    "variables": {
+        "x1": {
+            "type": "CONTINUOUS",
+            "lb": 0.0,
+            "ub": 10.0,
+            "obj_coef": 2.5
+        }
+    },
+    "constraints": {
+        "c1": {
+            "sense": "LE",
+            "rhs": 5.0
+        }
+    }
+}
